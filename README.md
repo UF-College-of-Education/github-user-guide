@@ -1,3 +1,5 @@
+# GitHub User Guide
+
 This guide is to help you understand the typical workflow for working with code hosted on GitHub. For the most part, we have directed towards developers within the University of Florida College of Education, but many of the concepts apply to anyone trying to get started with GitHub. 
 
 ## Before You Begin
