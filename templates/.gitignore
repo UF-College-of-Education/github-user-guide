@@ -1,0 +1,29 @@
+# Environment files: copy .env.example to .env locally; never commit .env
+.env
+.env.*
+!.env.example
+
+# Keys and credentials
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+id_ecdsa*
+id_dsa*
+credentials*.json
+
+# Databases and data dumps: test data belongs in synthetic fixtures
+*.db
+*.sqlite*
+*.dump
+
+# Dependencies and environments
+node_modules/
+__pycache__/
+.venv/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
